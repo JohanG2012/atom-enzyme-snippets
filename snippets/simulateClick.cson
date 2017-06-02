@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "simulate("click")":
+    "prefix": "simClick"
+    "body": """
+      ${1:btn}.simulate("click", ${2:{}});
+      """

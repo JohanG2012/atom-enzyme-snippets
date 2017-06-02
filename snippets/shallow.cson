@@ -2,5 +2,5 @@
   "shallow()":
     "prefix": "shallow"
     "body": """
-      wrapper = shallow(${1:<App/>})
+      ${1:wrapper} = shallow(${2:<App/>});
       """
