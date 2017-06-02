@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "shallow()":
+    "prefix": "shallow"
+    "body": """
+      wrapper = shallow(${1:<App/>})
+      """
