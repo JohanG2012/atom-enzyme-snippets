@@ -3,6 +3,6 @@
     "prefix": "simChange"
     "body": """
       ${1:input}.simulate("change", {
-        ${target: { value: value },}
-        });
+        ${2:target: { value: value },}
+      });
       """
