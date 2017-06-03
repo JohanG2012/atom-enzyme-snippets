@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "import 'enzyme'":
+    "prefix": "enzyme"
+    "body": """
+      import $1 from "enzyme";
+      """
