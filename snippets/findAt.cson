@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "find().at()":
+    "prefix": "findAt"
+    "body": """
+      ${1:wrapper}.find(${2:".class"}).at(${3:1});
+      """
