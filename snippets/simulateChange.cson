@@ -1,5 +1,5 @@
 ".source.js, .source.jsx, .source.ts":
-  "simulate("change")":
+  "simulate('change')":
     "prefix": "simChange"
     "body": """
       ${1:input}.simulate("change", {
