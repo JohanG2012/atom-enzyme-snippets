@@ -2,5 +2,5 @@
   "find().length":
     "prefix": "findLength"
     "body": """
-      ${1:wrapper}.find(${2:"selector"}).length;$3
+      ${1:wrapper}.find(${2:"selector"}).length$3
       """
