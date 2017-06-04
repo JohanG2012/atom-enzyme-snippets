@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "mount()":
+    "prefix": "mount"
+    "body": """
+      ${1:wrapper} = mount(<${2:App}/>);
+      """
