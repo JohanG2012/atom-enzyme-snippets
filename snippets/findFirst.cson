@@ -2,5 +2,5 @@
   "find().first()":
     "prefix": "findFirst"
     "body": """
-      ${1:wrapper}.find(${2:".class"}).first();
+      ${1:wrapper}.find(${2:"selector"}).first();
       """
