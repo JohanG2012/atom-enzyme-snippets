@@ -2,5 +2,5 @@
   "import 'enzyme'":
     "prefix": "enzyme"
     "body": """
-      import {$1} from "enzyme";
+      import {$1} from "enzyme";$2
       """

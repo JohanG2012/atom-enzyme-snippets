@@ -2,5 +2,5 @@
   "mount()":
     "prefix": "mount"
     "body": """
-      ${1:wrapper} = mount(<${2:App}/>);
+      ${1:wrapper} = mount(<${2:App}/>);$3
       """

@@ -4,5 +4,5 @@
     "body": """
       ${1:input}.simulate("change", {
         ${2:target: { value: value },}
-      });
+      });$3
       """

@@ -2,5 +2,5 @@
   "simulate('click')":
     "prefix": "simClick"
     "body": """
-      ${1:btn}.simulate("click", ${2:{}});
+      ${1:btn}.simulate("click", ${2:{}});$3
       """
