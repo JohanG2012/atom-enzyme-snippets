@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "find().length":
+    "prefix": "findLength"
+    "body": """
+      ${1:wrapper}.find(${2:"selector"}).length;$3
+      """
