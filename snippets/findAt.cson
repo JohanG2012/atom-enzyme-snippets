@@ -2,5 +2,5 @@
   "find().at()":
     "prefix": "findAt"
     "body": """
-      ${1:wrapper}.find(${2:".class"}).at(${3:1});$4
+      ${1:wrapper}.find(${2:"selector"}).at(${3:1});$4
       """
